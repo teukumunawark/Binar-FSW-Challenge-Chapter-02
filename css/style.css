@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.btn-green {
+  background-color: #5cb85f !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  border: none;
+}
+
+.fa-circle-chevron-left .fa-solid {
+  background-color: #5cb85f;
+}
+
+.icon-card {
+  width: 1.7rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.bd-masthead {
+  padding-top: 8rem;
+}
+
+#get-started-section {
+  background-color: #f1f3ff;
+}
+
+.checked {
+  color: orange;
+}
+
+.card-tail {
+  background-color: #f1f3ff;
+}
+
+nav {
+  background-color: #f1f3ff;
+}
+.banner {
+  background-color: #0d28a6;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.icon-list li::before {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.6rem;
+  margin-top: 0.2rem;
+  content: "";
+  background: url("../assets/check-list.png") no-repeat center center / 100%
+    auto;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .bd-masthead {
+    padding-top: 2.5rem;
+    background-color: white;
+  }
+
+  .img-car {
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+  .img-services {
+  }
+
+  .img-person {
+    max-width: 100px;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+  .card-why-us {
+    max-width: 20rem;
+  }
+
+  .card-tail {
+    min-width: 530px;
+  }
+}
+
+
+
